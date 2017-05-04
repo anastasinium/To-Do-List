@@ -1,0 +1,84 @@
+.body {
+    font-family: Times New Roman, sans-serif;
+}
+
+h2 {
+    color: #06521b;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+form {
+    margin: 20px 0;
+}
+
+.textarea {
+    width: 300px;
+    height: 50px;
+    border: 1px solid #92e28a;
+    margin-bottom: -10px;
+    border-radius: 3px;
+}
+
+.add-item {
+    width: 60px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    background-color: #92e28a;
+    color: #06521b;
+    cursor: pointer;
+}
+
+.add-item:active {
+    background-color: #b9e2b5;
+    box-shadow: none;
+    border: none;
+}
+
+.item {
+    margin: 20px 0;
+    padding: 10px;
+    width: 600px;
+    border: 1px solid #92e28a;
+    background-color: #eaffee;
+    word-wrap: break-word;
+}
+
+.done-item {
+    text-decoration:line-through;
+    color: #90928f;
+    background-color: #ededef;
+    border: 1px solid #bcbec2;
+}
+
+.button-done,
+.button-delete {
+    float: right;
+    border: none;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.button-done {
+    margin-right: 15px;
+    background: transparent url(http://s1.iconbird.com/ico/1012/Qetto2Icons/w256h2561350657638check.png) no-repeat center top;
+    background-size: 20px;
+    text-indent: -1000em;
+}
+
+.done-item .button-done {
+    background: transparent url(http://asa-dnepr.com/img/check.png) no-repeat center top;
+    background-size: 25px;
+}
+
+.button-delete {
+    margin-right: 5px;
+    background: transparent url(http://s1.iconbird.com/ico/1012/Qetto2Icons/w256h2561350657651no.png) no-repeat center top;
+    background-size: 20px;
+    text-indent: -1000em;
+}
