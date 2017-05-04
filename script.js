@@ -92,8 +92,8 @@ function fetchFromStorage() {
 
     getObg.items.forEach(function (item) {
         item.__proto__ = Item.prototype;
+        globalId = item.id;
     });
-    globalId = getObg.items.length;
 
     return getObg;
 }
