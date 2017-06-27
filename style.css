@@ -30,7 +30,6 @@ form {
     border-radius: 3px;
     background-color: #92e28a;
     color: #06521b;
-    cursor: pointer;
 }
 
 .add-item:active {
@@ -61,7 +60,6 @@ form {
     border: none;
     width: 20px;
     height: 20px;
-    cursor: pointer;
 }
 
 .button-done {
@@ -69,6 +67,8 @@ form {
     background: transparent url(http://s1.iconbird.com/ico/1012/Qetto2Icons/w256h2561350657638check.png) no-repeat center top;
     background-size: 20px;
     text-indent: -1000em;
+    cursor: pointer;
+    cursor: hand;
 }
 
 .done-item .button-done {
@@ -81,4 +81,9 @@ form {
     background: transparent url(http://s1.iconbird.com/ico/1012/Qetto2Icons/w256h2561350657651no.png) no-repeat center top;
     background-size: 20px;
     text-indent: -1000em;
+    cursor: pointer;
+    cursor: hand;
 }
+
+
+
