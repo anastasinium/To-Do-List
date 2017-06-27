@@ -87,21 +87,19 @@ function saveToStorage(obj) {
 function fetchFromStorage() {
     var getObg = JSON.parse(localStorage.getItem("saveObg"));
 
-    //TODO too complicated - find out solution
     getObg.__proto__ = ItemGroup.prototype;
 
     getObg.items.forEach(function (item) {
         item.__proto__ = Item.prototype;
-        globalId = item.id;
     });
+    globalId = getObg.items.length;
 
     return getObg;
 }
 
 var globalId = 0;
 
-//TODO too complicated - find out solution
-var itemGroup;
+var itemGroup = new ItemGroup;
 
 var saved = fetchFromStorage();
 if(saved){
